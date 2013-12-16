@@ -1,0 +1,74 @@
+{
+  "took" : 8,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1000,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "4",
+      "_score" : 1.0, "_source" : {"in_stock": false, "tag": ["earum", "mollitia", "possimus", "eaque", "sit"], "name": "Entropic Man", "date": "2014-01-30T16:46:01.677745", "position": {"lat": 50.90971221359429, "lon": 36.60397362831214}, "age": 70, "metadata": [{"num": 14, "name": "Black Box", "value": "2"}, {"num": 40, "name": "Marko, Cain", "value": "5"}, {"num": 15, "name": "Zarek", "value": "5"}, {"num": 31, "name": "Masaryk, Milos", "value": "3"}], "price": 6.8500478027126, "description": "cupiditate excepturi voluptas ullam saepe aperiam ipsam ad molestias aliquid quaerat corrupti velit magnam obcaecati minima explicabo recusandae quisquam amet quos accusantium adipisci cum modi ducimus doloribus officiis sit pariatur repellendus nulla dicta voluptatum mollitia temporibus labore nesciunt ipsa a fugit eum id non enim qui praesentium eligendi consequuntur dolorem esse doloremque numquam repellat beatae suscipit quae et repudiandae provident sunt fugiat illo aut vel nihil tempora ea minus quia maiores fuga tempore commodi optio delectus eius assumenda quibusdam laboriosam vero aliquam reprehenderit in cumque odit impedit"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "9",
+      "_score" : 1.0, "_source" : {"in_stock": true, "tag": ["alias", "sit"], "name": "Frankie Raye", "date": "2015-10-12T16:46:01.688235", "position": {"lat": 52.69143061924057, "lon": -173.09174747878018}, "age": 83, "metadata": [{"num": 21, "name": "Atlas", "value": "2"}], "price": 43.49815512722891, "description": "ipsam totam odio vel obcaecati sint consequuntur porro neque nesciunt quo sapiente voluptatum veniam voluptatem eum quas ullam natus laboriosam repudiandae delectus ut cupiditate repellat voluptates minus minima sequi maxime debitis atque corporis ipsum quis dicta eos sunt omnis et quam earum architecto amet praesentium ipsa molestias dolor quibusdam iure laborum odit harum saepe sit accusantium nobis dolorum expedita fugit temporibus deleniti facilis tenetur aut explicabo perspiciatis facere quasi soluta voluptas maiores aperiam pariatur dignissimos nostrum suscipit enim optio veritatis ratione mollitia impedit magnam reiciendis incidunt quia"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "11",
+      "_score" : 1.0, "_source" : {"in_stock": false, "tag": ["commodi", "temporibus", "porro"], "name": "Martha Johansson", "date": "2014-02-06T16:46:01.690941", "position": {"lat": 37.772642291505115, "lon": 99.31118036062482}, "age": 1, "metadata": [{"num": 43, "name": "Crossbones", "value": "3"}], "price": 14.780216355795739, "description": "exercitationem officia minima numquam odit officiis similique veritatis voluptas repellendus temporibus aliquam provident enim qui inventore totam odio ducimus ad nisi nam molestias voluptates itaque consequuntur quis at quia aut est possimus iure deserunt asperiores ipsum voluptatem quaerat quae dicta praesentium quidem voluptate saepe eveniet ea libero repudiandae dolorum quibusdam vitae architecto assumenda in magni vero reprehenderit consectetur dignissimos corporis ipsa omnis accusamus perspiciatis nostrum"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "16",
+      "_score" : 1.0, "_source" : {"in_stock": false, "tag": ["cum", "similique", "nisi"], "name": "Harkness, Agatha", "date": "2016-03-28T16:46:01.698340", "position": {"lat": 50.01466986707101, "lon": -126.29918447288728}, "age": 66, "metadata": [{"num": 27, "name": "Sin", "value": "4"}, {"num": 27, "name": "Jessica Jones", "value": "1"}, {"num": 9, "name": "Wiz Kid", "value": "2"}, {"num": 48, "name": "Eel", "value": "4"}, {"num": 6, "name": "Hazmat", "value": "3"}], "price": 39.15813605338169, "description": "quam iste totam quasi similique sint cupiditate minima neque ipsum velit ex consectetur quidem hic maxime eaque fugit nemo pariatur repellendus dolor temporibus nesciunt dolorum saepe eum minus doloremque odit consequatur itaque consequuntur molestias error cum corrupti beatae quaerat rerum explicabo aut accusamus amet expedita iusto magnam modi voluptatum ullam aspernatur doloribus nam excepturi maiores dignissimos vel obcaecati cumque veritatis commodi natus molestiae quos unde voluptate aliquam illo laborum veniam accusantium suscipit optio perferendis et sit"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "23",
+      "_score" : 1.0, "_source" : {"in_stock": false, "tag": ["architecto", "at", "laboriosam", "quasi", "nobis"], "name": "Scorpio", "date": "2011-10-31T16:46:01.707104", "position": {"lat": -15.358501633295607, "lon": -23.984459691385428}, "age": 87, "metadata": [{"num": 49, "name": "Hellfire", "value": "5"}], "price": 91.42911125067204, "description": "fuga odio quasi dicta cum natus nesciunt veritatis ullam dolorem culpa"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "28",
+      "_score" : 1.0, "_source" : {"in_stock": false, "tag": ["voluptatem", "magnam", "voluptatem", "odio"], "name": "Prodigy", "date": "2012-09-17T16:46:01.713109", "position": {"lat": -81.46424679268094, "lon": 22.894374913805486}, "age": 18, "metadata": [{"num": 11, "name": "Jaren", "value": "5"}, {"num": 6, "name": "Crimson Craig", "value": "1"}, {"num": 43, "name": "Orphan", "value": "3"}, {"num": 44, "name": "Nimrod", "value": "4"}, {"num": 14, "name": "Kamo Tharnn", "value": "1"}], "price": 71.57742125850457, "description": "velit exercitationem molestiae magnam nesciunt ut libero natus ex ratione quidem cupiditate quos neque perspiciatis alias saepe quod error nobis nihil nisi expedita maxime non voluptatum illum facilis rerum quo tenetur quia dolore eius dolores incidunt nemo veritatis voluptates autem consequatur quasi possimus nam beatae sapiente"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "30",
+      "_score" : 1.0, "_source" : {"in_stock": true, "tag": ["eius", "placeat"], "name": "Bailey, Gailyn", "date": "2014-02-04T16:46:01.715442", "position": {"lat": 66.0253201258025, "lon": 13.406897666681644}, "age": 53, "metadata": [{"num": 35, "name": "Cardinal", "value": "4"}], "price": 7.213540585809374, "description": "recusandae reprehenderit quisquam odio reiciendis autem id eveniet distinctio maxime deleniti nemo tempore ut aut numquam perferendis iure blanditiis commodi sit illo voluptate beatae quae hic ullam vero nisi officia repudiandae porro velit odit repellat dicta minus tenetur est consectetur in expedita fugiat ab modi nihil placeat impedit voluptatum sed rem consequatur possimus vel provident illum explicabo cupiditate rerum tempora fugit officiis sunt quos corrupti dignissimos incidunt molestias accusamus cum quia quas quam qui"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "35",
+      "_score" : 1.0, "_source" : {"in_stock": false, "tag": ["quasi"], "name": "Shen Kuei", "date": "2013-07-30T16:46:01.720744", "position": {"lat": 67.84038124822901, "lon": -24.37024112823036}, "age": 41, "metadata": [{"num": 7, "name": "Witchfire", "value": "1"}, {"num": 40, "name": "Persuasion", "value": "3"}, {"num": 16, "name": "Starhawk", "value": "5"}], "price": 36.37838435373312, "description": "architecto excepturi alias exercitationem minus corporis totam explicabo atque vitae nemo quis nihil ratione adipisci modi qui optio quaerat rerum iusto veritatis repellat ipsam fugiat pariatur fugit"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "42",
+      "_score" : 1.0, "_source" : {"in_stock": false, "tag": ["doloremque", "nobis"], "name": "Nate Grey", "date": "2014-05-23T16:46:01.727815", "position": {"lat": 75.44431967619518, "lon": 59.79152415250072}, "age": 22, "metadata": [{"num": 3, "name": "Fontanelle", "value": "2"}, {"num": 35, "name": "Possessor", "value": "3"}, {"num": 22, "name": "Nebula", "value": "5"}], "price": 76.86954274101372, "description": "aut maiores aspernatur dolore consequuntur laboriosam suscipit odio fugit voluptate enim ratione voluptates quis minus deserunt fuga quo vitae delectus culpa nisi corporis praesentium numquam voluptatibus aperiam cumque ipsam neque amet voluptas nesciunt ut reprehenderit voluptatem sit rerum labore quos sunt velit cum laborum commodi sint magni architecto ullam dolorum nam nemo tempora eos quisquam totam error odit modi dignissimos corrupti vel dolor quae provident obcaecati aliquam sapiente"}
+    }, {
+      "_index" : "test-index",
+      "_type" : "test-type",
+      "_id" : "47",
+      "_score" : 1.0, "_source" : {"in_stock": false, "tag": ["doloribus", "tempore"], "name": "Mister Hyde", "date": "2014-09-30T16:46:01.733492", "position": {"lat": -45.278874593086805, "lon": -125.68337309077427}, "age": 98, "metadata": [{"num": 44, "name": "Challenger", "value": "2"}, {"num": 43, "name": "Rebel", "value": "2"}], "price": 19.97585904074307, "description": "assumenda praesentium illo odit architecto veniam nam minima voluptatum iste provident repellat quas saepe nulla temporibus reiciendis eveniet cumque fugit sint quo hic molestias veritatis suscipit cupiditate tempore dolorem recusandae doloribus culpa corrupti atque obcaecati officiis totam quisquam aspernatur quia beatae odio"}
+    } ]
+  },
+  "facets" : {
+    "ullam_docs" : {
+      "_type" : "filter",
+      "count" : 17
+    },
+    "age37_docs" : {
+      "_type" : "filter",
+      "count" : 6
+    }
+  }
+}

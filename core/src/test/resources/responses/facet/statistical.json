@@ -1,0 +1,38 @@
+{
+  "took" : 3,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1000,
+    "max_score" : 1.0,
+    "hits" : [ ]
+  },
+  "facets" : {
+    "age" : {
+      "_type" : "statistical",
+      "count" : 1000,
+      "total" : 53243.0,
+      "min" : 1.0,
+      "max" : 100.0,
+      "mean" : 53.243,
+      "sum_of_squares" : 3653701.0,
+      "variance" : 818.8839509999999,
+      "std_deviation" : 28.616148430562767
+    },
+    "price" : {
+      "_type" : "statistical",
+      "count" : 1000,
+      "total" : 50295.45127330549,
+      "min" : 0.025325332858183724,
+      "max" : 99.98302508488757,
+      "mean" : 50.29545127330549,
+      "sum_of_squares" : 3363069.573351521,
+      "variance" : 833.4371545660742,
+      "std_deviation" : 28.869311639976356
+    }
+  }
+}

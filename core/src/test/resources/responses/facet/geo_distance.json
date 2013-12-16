@@ -1,0 +1,63 @@
+{
+  "took" : 11,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 1000,
+    "max_score" : 1.0,
+    "hits" : [ ]
+  },
+  "facets" : {
+    "position" : {
+      "_type" : "geo_distance",
+      "ranges" : [ {
+        "to" : 10.0,
+        "count" : 1,
+        "min" : 0.2903123939621829,
+        "max" : 0.2903123939621829,
+        "total_count" : 1,
+        "total" : 0.2903123939621829,
+        "mean" : 0.2903123939621829
+      }, {
+        "from" : 10.0,
+        "to" : 20.0,
+        "count" : 0,
+        "min" : "Infinity",
+        "max" : "-Infinity",
+        "total_count" : 0,
+        "total" : 0.0,
+        "mean" : 0.0
+      }, {
+        "from" : 20.0,
+        "to" : 50.0,
+        "count" : 0,
+        "min" : "Infinity",
+        "max" : "-Infinity",
+        "total_count" : 0,
+        "total" : 0.0,
+        "mean" : 0.0
+      }, {
+        "from" : 50.0,
+        "to" : 100.0,
+        "count" : 0,
+        "min" : "Infinity",
+        "max" : "-Infinity",
+        "total_count" : 0,
+        "total" : 0.0,
+        "mean" : 0.0
+      }, {
+        "from" : 100.0,
+        "count" : 999,
+        "min" : 133.32803268700687,
+        "max" : 19716.372410118485,
+        "total_count" : 999,
+        "total" : 9691323.833150115,
+        "mean" : 9701.024858008122
+      } ]
+    }
+  }
+}

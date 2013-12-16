@@ -1,0 +1,13 @@
+{
+    "ok" : true,
+    "status" : 200,
+    "name" : "ucs2",
+    "version" : {
+        "number" : "1.4.9",
+        "build_hash" : "799d572d140502e6fbc46542e0cc5a92a877965b",
+        "build_timestamp" : "2013-11-11T15:36:10Z",
+        "build_snapshot" : false,
+        "lucene_version" : "4.5.1"
+    },
+    "tagline" : "ES: The Impossible Made Possible"
+}

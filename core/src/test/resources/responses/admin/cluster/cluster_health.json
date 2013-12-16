@@ -1,0 +1,1 @@
+{"cluster_name":"ucs150","status":"green","timed_out":false,"number_of_nodes":2,"number_of_data_nodes":2,"active_primary_shards":251,"active_shards":502,"relocating_shards":0,"initializing_shards":0,"unassigned_shards":0}
