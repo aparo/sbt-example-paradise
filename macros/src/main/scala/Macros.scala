@@ -20,3 +20,4 @@ object helloMacro {
 class hello extends StaticAnnotation {
   def macroTransform(annottees: Any*) = macro helloMacro.impl
 }
+
