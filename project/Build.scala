@@ -60,7 +60,7 @@ object MyBuild extends Build {
     "example-core",
     file("core"),
     settings = buildSettings ++ Seq(
-      libraryDependencies ++= Seq(scalaReflect, liftJson, liftJsonExt, jacksonCore, jacksonDatabind, finagleHTTP, finagleThrift,
+      libraryDependencies ++= Seq(scalaReflect, liftJson, liftJsonExt, jacksonCore, jacksonDatabind, finagleHTTP,
         liftRecord, liftUtil, jacksonHibernate, jacksonJaxrs, jacksonScala, slf4jApi, log4jLib, log4jOverSlf4j,
         common_io, mockito, scalatest, specs2, scalaz, parboiled) 
     )
