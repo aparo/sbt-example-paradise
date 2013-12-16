@@ -1,8 +1,8 @@
-import macrocc.Annotations.{Index, Fk}
-import macrocc.{Fk2, helloCC}
+import macrocc.Annotations.{NoIndex, Fk}
+import macrocc.helloCC
 
 @helloCC()
-case class MyTest(@Index a:Int, @Fk2 b:String="ok")
+case class MyTest(@NoIndex a:Int, @Fk b:String="ok")
 
 object MyTest{
   def apply(){
